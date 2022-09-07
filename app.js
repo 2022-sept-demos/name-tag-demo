@@ -1,8 +1,13 @@
-// import functions and grab DOM elements
+const nameInput = document.getElementById('name-input');
+const changeButton = document.getElementById('change-name');
+console.log(changeButton);
+changeButton.addEventListener('click', () => {
+    console.log('clicking');
+    console.log('hello function');
+    //  grab the input value
+    //  get the name display element as variable
+    //  change the text content of the name display
+    //  clear out input
+});
 
-// let state
-
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+console.log('hello world');
